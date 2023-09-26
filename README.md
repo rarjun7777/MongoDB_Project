@@ -15,9 +15,9 @@ This project is a robust authentication system built using MongoDB as the databa
 - Testing
 - Security Best Practices
 
-## Getting Started
+# Getting Started
 
-### Prerequisites
+# Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
@@ -25,7 +25,7 @@ Before you begin, ensure you have met the following requirements:
 - MongoDB installed and running
 - A `.env` file with the necessary environment variables (See [Configuration](#configuration))
 
-### Installation
+#  Installation
 
 1. Clone the repository:
 
@@ -43,13 +43,10 @@ Before you begin, ensure you have met the following requirements:
    
 Create a .env file in the project root directory and configure the following environment variables:
 
-# MongoDB connection URI
+# MongoDB connection
+
 MONGODB_URI=mongodb://localhost:27017/your-database-name
-
-# JWT secret key (replace with a strong, unique key)
 JWT_SECRET=your-secret-key
-
-# Port for the Express server (optional, default is 3000)
 PORT=3000
 
 #
